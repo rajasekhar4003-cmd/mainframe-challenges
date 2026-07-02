@@ -1,6 +1,3 @@
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
 *{
     margin:0;
     padding:0;
@@ -11,24 +8,24 @@ body{
     font-family:'Poppins',sans-serif;
     background:linear-gradient(135deg,#0f172a,#1e3a8a);
     color:#fff;
+    line-height:1.6;
 }
 
 header{
+    background:#111827;
     text-align:center;
     padding:50px 20px;
-    background:#111827;
-    box-shadow:0 4px 10px rgba(0,0,0,.3);
 }
 
 header h1{
-    font-size:42px;
     color:#ff9800;
+    font-size:42px;
     margin-bottom:10px;
 }
 
 header p{
+    color:#ddd;
     font-size:18px;
-    color:#d1d5db;
 }
 
 main{
@@ -38,12 +35,12 @@ main{
 }
 
 .card{
-    background:#ffffff;
+    background:#fff;
     color:#333;
     padding:25px;
     border-radius:15px;
     margin-bottom:25px;
-    box-shadow:0 8px 20px rgba(0,0,0,.2);
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
 }
 
 .card h2{
@@ -55,36 +52,27 @@ main{
     display:inline-block;
     background:#25D366;
     color:#fff;
-    padding:12px 25px;
-    border-radius:8px;
     text-decoration:none;
+    padding:12px 24px;
+    border-radius:8px;
     font-weight:bold;
-    margin-top:15px;
-}
-
-.btn:hover{
-    background:#1faa59;
 }
 
 .apply-btn{
     display:inline-block;
     background:#ff9800;
     color:#fff;
-    padding:12px 30px;
-    border-radius:8px;
     text-decoration:none;
+    padding:12px 24px;
+    border-radius:8px;
     font-weight:bold;
     margin-left:10px;
 }
 
-.apply-btn:hover{
-    background:#e68900;
-}
-
 footer{
-    text-align:center;
     background:#111827;
     color:#fff;
+    text-align:center;
     padding:20px;
     margin-top:30px;
 }
