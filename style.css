@@ -1,75 +1,80 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-    background:#f4f6f9;
-    color:#333;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    color:#fff;
 }
 
 header{
-    background:#003366;
-    color:#fff;
     text-align:center;
-    padding:40px 20px;
+    padding:50px 20px;
+    background:#111827;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
 }
 
 header h1{
-    font-size:40px;
+    font-size:42px;
+    color:#ff9800;
     margin-bottom:10px;
 }
 
 header p{
     font-size:18px;
+    color:#d1d5db;
 }
 
 main{
-    width:90%;
     max-width:900px;
     margin:30px auto;
+    padding:20px;
 }
 
 .card{
-    background:#fff;
+    background:#ffffff;
+    color:#333;
     padding:25px;
-    border-radius:10px;
+    border-radius:15px;
     margin-bottom:25px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
 }
 
 .card h2{
-    color:#003366;
+    color:#0f172a;
     margin-bottom:15px;
 }
 
 .btn{
     display:inline-block;
     background:#25D366;
-    color:white;
-    text-decoration:none;
+    color:#fff;
     padding:12px 25px;
-    border-radius:6px;
+    border-radius:8px;
+    text-decoration:none;
     font-weight:bold;
     margin-top:15px;
 }
 
 .btn:hover{
-    background:#1ea952;
+    background:#1faa59;
 }
 
 .apply-btn{
     display:inline-block;
     background:#ff9800;
-    color:white;
-    text-decoration:none;
-    padding:14px 40px;
+    color:#fff;
+    padding:12px 30px;
     border-radius:8px;
-    font-size:20px;
+    text-decoration:none;
     font-weight:bold;
-    margin:20px 0;
+    margin-left:10px;
 }
 
 .apply-btn:hover{
@@ -77,24 +82,9 @@ main{
 }
 
 footer{
-    background:#003366;
-    color:white;
     text-align:center;
+    background:#111827;
+    color:#fff;
     padding:20px;
-    margin-top:40px;
-}
-
-@media(max-width:768px){
-    header h1{
-        font-size:28px;
-    }
-
-    .card{
-        padding:18px;
-    }
-
-    .apply-btn{
-        width:100%;
-        text-align:center;
-    }
+    margin-top:30px;
 }
